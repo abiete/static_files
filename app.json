@@ -1,0 +1,7 @@
+{
+    "name":"Abiete Software CDN",
+    "description":"Probando el Abiete Software CDN en Heroku",
+    "repository":"https://github.com/lapy0110/static_files.git",
+    "keywords":["Abiete","Software"],
+    "image":"heroku/nodejs"
+   }
