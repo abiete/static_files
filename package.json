@@ -1,0 +1,28 @@
+{
+  "name": "static_files",
+  "version": "1.0.0",
+  "description": "Servidor de archivos estaticos Abiete Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abiete/static_files.git"
+  },
+  "author": "Luis Pino - Abiete Software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abiete/static_files/issues"
+  },
+  "homepage": "https://github.com/abiete/static_files#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
