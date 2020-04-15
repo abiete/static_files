@@ -5,6 +5,7 @@ const morgan = require('morgan');
 
 // Creacion del servidor
 const app = express();
+var port = process.env.PORT || 8080;
 
 // Middlewares
 app.use(express.json());
